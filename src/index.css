@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, Georgia, serif;
+  --color-brand-50: #f0f7ff;
+  --color-brand-100: #e0effe;
+  --color-brand-200: #b9dffd;
+  --color-brand-500: #2563eb;
+  --color-brand-600: #1d4ed8;
+  --color-brand-700: #1e40af;
+  --color-brand-800: #1e3a8a;
+  --color-brand-900: #172554;
+  --color-warm-50: #fefce8;
+  --color-warm-100: #fef9c3;
+  --color-warm-500: #eab308;
+  --color-warm-600: #ca8a04;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s ease-out both;
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+
+/* Selection */
+::selection {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+}
