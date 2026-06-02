@@ -1,9 +1,9 @@
-# 🦷 SmileCare AI Dental Receptionist & Lead Capture System
+# SmileCare AI Dental Receptionist & Lead Capture System
 
 
-An AI-powered dental clinic receptionist that automates patient inquiries, appointment requests, lead capture, CRM logging, and WhatsApp notifications.
+An AI-powered dental clinic receptionist that automates patient inquiries, appointment requests, lead capture, CRM logging, and WhatsApp notifications. This project demonstrates how Artificial Intelligence can replace repetitive front-desk tasks while ensuring that every patient inquiry is captured, organized, and instantly delivered to clinic staff.
 
-This project demonstrates how Artificial Intelligence can replace repetitive front-desk tasks while ensuring that every patient inquiry is captured, organized, and instantly delivered to clinic staff.
+
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-orange)
@@ -12,17 +12,17 @@ This project demonstrates how Artificial Intelligence can replace repetitive fro
 ![Vercel](https://img.shields.io/badge/Deployment-Vercel-black)
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🌐 **Live Website:**  
+**Live Website:**  
 https://smilecare-dental-clinic-rosy.vercel.app/
 
-📂 **GitHub Repository:**  
+**GitHub Repository:**  
 https://github.com/NoorayFatima/AI-Dental-Receptionist-Lead-Capture-System
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 Dental clinics often lose potential patients because inquiries arrive outside business hours or staff members are unavailable to respond immediately.
 
@@ -38,9 +38,9 @@ The system works 24/7 and ensures that no patient inquiry is missed.
 
 ---
 
-# ✨ Features
+# Features
 
-## 🤖 AI Receptionist
+## AI Receptionist
 
 Powered by Google Gemini AI.
 
@@ -55,7 +55,7 @@ The assistant can:
 
 ---
 
-## 📅 Intelligent Appointment Booking
+## Intelligent Appointment Booking
 
 The chatbot automatically collects:
 
@@ -69,7 +69,7 @@ Instead of asking everything at once, the assistant gathers information step-by-
 
 ---
 
-## 🧠 Structured Lead Capture System
+## Structured Lead Capture System
 
 When all required booking information is collected, the AI automatically generates a structured lead.
 
@@ -85,7 +85,7 @@ When all required booking information is collected, the AI automatically generat
 
 ---
 
-## 📊 Google Sheets CRM Integration
+## Google Sheets CRM Integration
 
 Captured leads are automatically sent to Google Sheets through Make.com automation.
 
@@ -104,7 +104,7 @@ This creates a lightweight CRM suitable for dental clinics and healthcare busine
 
 ---
 
-## 📱 WhatsApp Notification System
+## WhatsApp Notification System
 
 Whenever a lead is captured:
 
@@ -119,7 +119,7 @@ Powered by:
 
 ---
 
-## 🎨 Modern UI/UX
+## Modern UI/UX
 
 Features:
 
@@ -131,7 +131,7 @@ Features:
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
 Patient Visitor
@@ -159,7 +159,7 @@ Clinic Staff
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ## Frontend
 
@@ -196,11 +196,12 @@ Clinic Staff
 
 ---
 
-# 📸 Project Screenshots
+# Project Screenshots
 
 ## Homepage
 
-<img width="100%" alt="Homepage" src="./screenshots/homepage.png">
+<img width="958" height="409" alt="image" src="https://github.com/user-attachments/assets/40048fae-4845-4cda-838f-d067dbfa9cdb" />
+
 
 ---
 
@@ -235,7 +236,7 @@ Clinic Staff
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## Clone Repository
 
@@ -277,7 +278,7 @@ npm run dev
 
 ---
 
-# 🔄 Workflow
+# Workflow
 
 ### Step 1
 
@@ -323,7 +324,7 @@ Clinic staff contact the patient and confirm the appointment.
 
 ---
 
-# 💼 Real Business Value
+# Real Business Value
 
 This project can be adapted for:
 
@@ -340,7 +341,7 @@ Any business that relies on appointment booking and lead generation can benefit 
 
 ---
 
-# 📈 Future Enhancements
+# Future Enhancements
 
 Planned upgrades:
 
@@ -357,7 +358,7 @@ Planned upgrades:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 ### Noor Fatima
 
@@ -371,7 +372,7 @@ www.linkedin.com/in/noorfatima35
 
 ---
 
-# ⭐ Support
+# Support
 
 If you found this project useful:
 
